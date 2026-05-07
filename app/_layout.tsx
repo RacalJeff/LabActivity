@@ -1,4 +1,4 @@
-import { Stack, Tabs } from "expo-router";
+import { Stack } from "expo-router";
 import "../global.css";
 
 export default function RootLayout() {
@@ -13,30 +13,10 @@ export default function RootLayout() {
       headerShown: false,
     }}
     />
-
-    <Stack.Screen name="index3" options={{
-      headerShown: false,
-    }}
-    />
   </Stack>;
 
 
      
-  // return <Tabs tabBar={()=> <TabBar/>}>
-  //       <Tabs.Screen 
-  //       name="index" 
-  //       options={{
-  //         headerShown: false,
-  //       }}
-  //       />
-
-  //       <Tabs.Screen 
-  //       name="profile" 
-  //       options={{
-  //         headerShown: false,
-  //       }}
-  //       />
-  //     </Tabs>
 
 
 }
